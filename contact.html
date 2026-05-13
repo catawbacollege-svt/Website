@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Catawba Solar Racing Team</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div id="header-placeholder"></div>
+
+  <main>
+    <section class="section" style="padding-top:40px;">
+      <div class="container split-grid">
+        <div class="reveal">
+          <div class="kicker">Contact</div>
+          <h1 style="font-size:clamp(2.4rem,5vw,4.4rem);">Let’s build something useful together.</h1>
+          <p class="lead" style="margin-top:18px;">
+            Reach out for team membership, sponsorship, campus collaboration, or general questions about the project.
+          </p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="mailto:team@catawbasolarracing.org">Email the Team</a>
+          </div>
+        </div>
+
+        <div class="contact-card reveal">
+          <h3>Quick info</h3>
+          <p><strong>Email:</strong> team@catawbasolarracing.org</p>
+          <p><strong>Location:</strong> Salisbury, North Carolina</p>
+          <p><strong>Organization:</strong> Catawba College student-led team</p>
+          <p class="note">Replace the email and links with your real contact info when ready.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container split-grid">
+        <div class="contact-card reveal">
+          <div class="section-head">
+            <div class="kicker">Send a message</div>
+            <h2>Tell us what you need.</h2>
+          </div>
+
+          <form action="#" method="post">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="Your name" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="you@example.com" />
+              </div>
+              <div class="form-group full">
+                <label for="subject">Subject</label>
+                <input id="subject" name="subject" type="text" placeholder="How can we help?" />
+              </div>
+              <div class="form-group full">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Write your message here..."></textarea>
+              </div>
+            </div>
+            <div class="btn-row">
+              <button class="btn btn-primary" type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="contact-card reveal">
+          <div class="section-head">
+            <div class="kicker">Find us</div>
+            <h2>We are based at Catawba College in Salisbury.</h2>
+          </div>
+          <iframe
+            class="map-frame"
+            src="https://www.google.com/maps?q=Catawba%20College%20Salisbury%20NC&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Map to Catawba College"
+          ></iframe>
+
+          <div class="mini-links" style="margin-top:18px;">
+            <a class="mini-link" href="#">Instagram</a>
+            <a class="mini-link" href="#">Facebook</a>
+            <a class="mini-link" href="#">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="kicker">Need to know</div>
+          <h2>Common reasons people reach out.</h2>
+        </div>
+
+        <div class="news-grid">
+          <article class="news-card reveal">
+            <h3>Join the team</h3>
+            <p>Students interested in engineering, media, operations, or outreach can ask how to get involved.</p>
+          </article>
+          <article class="news-card reveal">
+            <h3>Become a sponsor</h3>
+            <p>Organizations can ask about sponsorship tiers, benefits, and how support is used.</p>
+          </article>
+          <article class="news-card reveal">
+            <h3>Partner with us</h3>
+            <p>Faculty, staff, and community members can discuss collaboration and event opportunities.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-brand">
+        <strong>Catawba Solar Racing Team</strong>
+        <p>Student-led solar vehicle development in Salisbury, NC.</p>
+      </div>
+      <div class="footer-links">
+        <strong>Site</strong>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="cars.html">Cars</a>
+        <a href="team.html">Team</a>
+        <a href="sponsors.html">Sponsors</a>
+      </div>
+      <div>
+        <strong>Follow</strong>
+        <div class="footer-social">
+          <a class="social-link" href="#" aria-label="Instagram">⌁</a>
+          <a class="social-link" href="#" aria-label="Facebook">f</a>
+          <a class="social-link" href="#" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 Catawba Solar Racing Team. All rights reserved.</p>
+      <p>Built with Catawba brand colors.</p>
+    </div>
+  </footer>
+
+  <button id="scrollTopBtn" class="scroll-top" aria-label="Scroll to top">↑</button>
+</body>
+</html>
